@@ -1,0 +1,25 @@
+---
+title: "Hello World"
+date: "2025-10-08"
+excerpt: "This is the first blog post written in MDX."
+---
+
+# Hello, MDX World! 👋
+
+This is your very first blog post using **Markdown + JSX (MDX)**.
+
+You can write normal markdown content like:
+
+- Bullet lists
+- **Bold** and *italic* text
+- [Links](https://example.com)
+
+You can also add **React components** inside your post:
+
+<MyAlert message="Welcome to the blog!" />
+
+export const MyAlert = ({ message }) => (
+  <div className="bg-blue-100 text-blue-800 p-4 rounded-md border border-blue-300">
+    {message}
+  </div>
+);

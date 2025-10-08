@@ -1,0 +1,23 @@
+---
+title: "5 Next.js Tips You Should Know"
+date: "2025-09-22"
+excerpt: "Boost your Next.js skills with these practical tips."
+---
+
+# ⚡ 5 Next.js Tips You Should Know
+
+Here are some quick tips to level up your Next.js projects:
+
+1. Use `getStaticProps` for static generation
+2. Prefetch routes with `<Link prefetch />`
+3. Optimize images using `next/image`
+4. Use dynamic imports for performance
+5. Enable MDX for writing blogs like this one!
+
+<InfoBox tip="Using static generation can significantly boost performance!" />
+
+export const InfoBox = ({ tip }) => (
+  <div className="bg-green-100 border border-green-300 text-green-800 p-4 rounded">
+    💡 {tip}
+  </div>
+);
